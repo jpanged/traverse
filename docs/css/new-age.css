@@ -277,12 +277,15 @@ footer {
         text-decoration: none; }
 
 .bg-primary {
-  background: #fdcc52;
-  background: -webkit-linear-gradient(#fdcc52, #fdc539);
-  background: linear-gradient(#fdcc52, #fdc539); }
+  background: #d8bf79;
+  background: -webkit-linear-gradient(#d8bf79, #d8bf79);
+  background: linear-gradient(#d8bf79, #d8bf79); }
 
 .text-primary {
-  color: #fdcc52; }
+  color: #d8bf79; }
+
+.text-center {
+ color: #d8bf79; }
 
 .no-gutter > [class*='col-'] {
   padding-right: 0;
