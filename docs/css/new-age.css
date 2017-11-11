@@ -119,8 +119,8 @@ header.masthead {
   padding-bottom: 100px;
   color: white;
   background:  #000000;
-  background:  -webkit-linear-gradient(to left, #000000, #404040);
-  background:  linear-gradient(to left, #000000, #404040); }
+  background:  -webkit-linear-gradient(to left, #404040, #000000);
+  background:  linear-gradient(to left, #404040, #000000); }
   header.masthead .header-content {
     max-width: 500px;
     margin-bottom: 100px;
