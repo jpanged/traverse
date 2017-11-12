@@ -50,7 +50,7 @@ section {
 
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
-  background-color: transparent;
+  background-color: black;
   -webkit-transition: all .35s;
   -moz-transition: all .35s;
   transition: all .35s;
@@ -67,7 +67,7 @@ section {
   #mainNav .navbar-toggler {
     font-size: 12px;
     padding: 8px 10px;
-    color: #222222; }
+    color: #ffffff; }
   #mainNav .navbar-nav > li > a {
     font-size: 11px;
     font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
@@ -80,7 +80,7 @@ section {
         background-color: transparent; }
   #mainNav .navbar-nav > li > a,
   #mainNav .navbar-nav > li > a:focus {
-    color: #222222; }
+    color: #ffffff; }
     #mainNav .navbar-nav > li > a:hover,
     #mainNav .navbar-nav > li > a:focus:hover {
       color: #fdcc52; }
@@ -149,7 +149,7 @@ header.masthead {
 
 section.download {
   position: relative;
-  padding: 150px 0; }
+  padding: 25px 0; }
   section.download h2 {
     font-size: 50px;
     margin-top: 0; }
@@ -169,7 +169,7 @@ section.download {
       font-size: 70px; } }
 
 section.features .section-heading {
-  margin-bottom: 100px; }
+  margin-bottom: 0px; }
   section.features .section-heading h2 {
     margin-top: 0; }
   section.features .section-heading p {
@@ -187,8 +187,8 @@ section.features .device-container {
       margin-bottom: 0; } }
 
 section.features .feature-item {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   text-align: center; }
   section.features .feature-item h3 {
     font-size: 30px; }
@@ -259,6 +259,10 @@ section.contact {
       background-color: #8a3ab9; }
       section.contact ul.list-social li.social-instagram a:hover {
         background-color: #cd486b; }
+     section.contact ul.list-social li.social-mail a {
+       background-color: #cc0000; }
+       section.contact ul.list-social li.social-mail a:hover {
+         background-color: #990000; }
 
 footer {
   padding: 25px 0;
