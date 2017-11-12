@@ -260,6 +260,10 @@ section.contact {
       background-color: #8a3ab9; }
       section.contact ul.list-social li.social-instagram a:hover {
         background-color: #cd486b; }
+     section.contact ul.list-social li.social-linkedin a {
+       background-color: #0077b5; }
+       section.contact ul.list-social li.social-linkedin a:hover {
+         background-color: #005380; }
      section.contact ul.list-social li.social-mail a {
        background-color: #cc0000; }
        section.contact ul.list-social li.social-mail a:hover {
@@ -295,15 +299,16 @@ footer {
 
 .btn-outline {
   color: white;
-  border: 1px solid;
+  border: 2px solid;
+  background-color: #000000;
   border-color: white; }
   .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
     color: white;
     border-color: #d8bf79;
-    background-color: #bfbfbf; }
+    background-color: #000000 }
 
 .btn {
-  border-radius: 300px;
+  border-radius: 0px;
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   letter-spacing: 2px;
   text-transform: uppercase; }
