@@ -50,7 +50,7 @@ section {
 
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
-  background-color: white;
+  background-color: transparent;
   -webkit-transition: all .35s;
   -moz-transition: all .35s;
   transition: all .35s;
@@ -110,7 +110,7 @@ section {
           color: #f2f2f2; }
           #mainNav.navbar-shrink .navbar-nav > li > a:hover,
           #mainNav.navbar-shrink .navbar-nav > li > a:focus:hover {
-            color: #fdcc52; } }
+            color: #d8bf79; } }
 
 header.masthead {
   position: relative;
